@@ -2,15 +2,30 @@
     margin: 0;
     padding: 0;
 }
-main{
+.main{
     background-image: url("assets/img/bg.jpg");
-    height:80vh
+    height:80vh;
+    position:relative;
 
 
 }
-main .box{
+.main .box{
     height: 80vh;
     width: 100%;
     opacity: 0.5;
     background-color: black;
+    position: absolute;
+    top: 0;
+
+       
+}
+
+.main nav{
+    max-width: 80vw;
+    margin: auto;
+    z-index: 11;
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
