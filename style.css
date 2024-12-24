@@ -1,15 +1,24 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Syne:wght@400..800&display=swap');
+
+* {
     margin: 0;
     padding: 0;
+
 }
-.main{
+body{
+    background-color: black;
+}
+
+.main {
     background-image: url("assets/img/bg.jpg");
-    height:80vh;
-    position:relative;
-
-
+    height: 80vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw)
 }
-.main .box{
+
+.main .box {
     height: 80vh;
     width: 100%;
     opacity: 0.5;
@@ -17,15 +26,54 @@
     position: absolute;
     top: 0;
 
-       
+
+
 }
 
-.main nav{
+.main nav {
     max-width: 80vw;
     margin: auto;
     z-index: 11;
-    background-color: rgb(255, 0, 0);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    height: 95px;
+}
+
+.main-text {
+    color: white;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    font-family: "Martel Sans", serif;
+    font-weight: 900;
+}
+
+.main-text > :nth-child(1) {
+    font-size: 56px;
+    line-height: 70px;
+
+
+}
+
+.main-text > :nth-child(2) {
+    font-size: 56px;
+    line-height: 70px;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+
+
+}
+
+.main-text > :nth-child(3) {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.main-text > :nth-child(4) {
+    font-size: 16px;
+    font-weight: 400;
 }
