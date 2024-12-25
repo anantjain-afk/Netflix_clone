@@ -11,7 +11,7 @@ body{
 
 .main {
     background-image: url("assets/img/bg.jpg");
-    height: 80vh;
+    height: 90vh;
     position: relative;
     background-position: center center;
     background-repeat: no-repeat;
@@ -19,7 +19,7 @@ body{
 }
 
 .main .box {
-    height: 80vh;
+    height: 90vh;
     width: 100%;
     opacity: 0.5;
     background-color: black;
@@ -43,7 +43,7 @@ body{
 
 .main-text {
     color: white;
-    height: 100%;
+    height: 75%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,6 +51,8 @@ body{
     position: relative;
     font-family: "Martel Sans", serif;
     font-weight: 900;
+    padding: 30px;
+    text-align: center;
 }
 
 .main-text > :nth-child(1) {
@@ -76,4 +78,45 @@ body{
 .main-text > :nth-child(4) {
     font-size: 16px;
     font-weight: 400;
+}
+.separation{
+    border-top: 5px solid rgb(178, 46, 46);
+    background-clip: padding-box;
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    border-top-left-radius: 90% 50% ;
+    border-top-right-radius: 90% 50% ;
+    top: 90%;
+    background: radial-gradient(50% 500% at 50% -420%, rgba(0, 51, 255, 0.4) 80%, rgba(0, 0, 0, 0.1) 100%), black;
+
+}
+.btn-1{
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 4px;
+    background-color: transparent;
+    color: white;
+    padding-right: 100px;
+
+
+}
+
+#language{
+    padding: 5px 26px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    background-color: transparent;
+    color: white;
+    text-align: left;
+    font-size: 18px ;
+}
+#sign-in-button{
+    background-color: red;
+    padding: 6px 15px;
+    border-radius: 5px;
+    font-weight: 600px;
+    font-size: large;
+    color:white;
+    border: none;
 }

@@ -13,8 +13,13 @@
         <nav>
             <span><img width="150" src="assets/img/logo.svg"></span>
             <div>
-                <button>English</button>
-                <button>Sign In</button>
+
+                    <select name="English" id="language">
+                        <option value="English">English</option>
+                        <option value="Hindi">Hindi</option>
+                    </select>
+  
+                <button id="sign-in-button">Sign In</button>
             </div>
         </nav>
         <div class="box"></div>
@@ -25,15 +30,11 @@
             <span> Starts at ₹149. Cancel at any time.
             </span>
             <span> Ready to watch? Enter your email to create or restart your membership.</span>
-            <div><input type="email" placeholder="Email address">
+            <div><input class="btn-1" id = "email-input" type="email" placeholder="Email address">
                 <label>Get Started</label>
             </div>
-
-
-
-
-
         </div>
+        <div class="separation"></div>
     </div>
 </body>
 
