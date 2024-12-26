@@ -113,11 +113,11 @@ body {
 #language {
     padding: 5px 26px;
     border: 1px solid gray;
-    border-radius: 7px;
+    border-radius: 3px;
     background-color: transparent;
     color: white;
     text-align: left;
-    font-size: 18px;
+    font-size: 18px;margin-right: 5px;
 }
 
 #sign-in-button {
@@ -298,4 +298,80 @@ label {
     font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
     font-weight: 100;
     margin-right: 3%;
+}
+#watch{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+.again-sign{
+    display: flex;
+    justify-content: center;
+}
+.again-sign .btn-1{
+    color: lightgray;
+    border: 1px solid gray;
+    margin-right: 5px;
+}
+.again-sign .btn-1::placeholder{
+    color: lightgray;
+    text-align: left;
+
+}
+.again-sign .get-started{
+    color: white;
+    padding: 15px 30px;
+    border-radius: 4px;
+    font-weight: 800;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+#call{
+    margin-top: 50px;
+    color: lightgray;
+    position: relative;
+    left: 10%;
+
+
+}
+#call a{
+    color: lightgray;
+    margin-left: 5px;
+}
+.footer{
+    margin-top: 20px;
+    display: flex;
+
+    position: relative;
+    left: 10%;
+    margin-right: 20%;
+    color: lightgray;
+
+}
+.links{
+
+    width: 100%;
+
+
+}
+.links a{
+    color: lightgray;
+    display: block;
+    margin: 5px;
+    margin-bottom: 12px;
+}
+.again-language{
+    position: relative;
+    left: 10%;
+    margin-top: 40px;
+
+}
+#credentials{
+    color: lightgray;
+    position: relative;
+    left: 10%;
+    margin-top: 40px;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;;
 }
